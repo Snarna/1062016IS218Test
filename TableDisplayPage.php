@@ -19,7 +19,7 @@
 </head>
 <body>
 <?php
-require("/TableProcessor/htmlTable.class.php");
+require("/TableProcessorClasses/htmlTable.class.php");
 
 $inputArr = array();
 $inputArr[] = array("Name" => "Google", "URL" => "https://www.google.com/", "Type" => "Search engine" );

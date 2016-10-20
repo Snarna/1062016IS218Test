@@ -1,5 +1,5 @@
 <?php
-require("/TableProcessor/rawData.class.php");
+require("/TableProcessorClasses/rawData.class.php");
 
 class htmlTable extends rawData{
   protected $htmlTable = '';
