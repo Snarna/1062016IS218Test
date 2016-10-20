@@ -25,10 +25,10 @@ require(__DIR__ . "/TableProcessorClasses/htmlTable.class.php");
 $inputArr = array();
 $inputArr[] = array("Name" => "Google", "URL" => "https://www.google.com/", "Type" => "Search engine" );
 $inputArr[] = array("Name" => "Youtube", "URL" => "https://www.youtube.com/", "Type" => "Video sharing");
-$inputArr[] = array("Name" => "Facebook", "URL" => "https://www.facebook.com/", "Type" => "Social netork");
+$inputArr[] = array("Name" => "Facebook", "URL" => "https://www.facebook.com/", "Type" => "Social network");
 $inputArr[] = array("Name" => "Baidu", "URL" => "https://www.baidu.com", "Type" => "Search engine");
-$inputArr[] = array("Name" => "Yahoo!", "URL" => "https://www.yahoo.com", "Type" => "	Portal and media");
-$inputArr[] = array("Name" => "Amazon", "URL" => "https://www.amazon.com", "Type" => "	E-commerce");
+$inputArr[] = array("Name" => "Yahoo!", "URL" => "https://www.yahoo.com", "Type" => "Portal and media");
+$inputArr[] = array("Name" => "Amazon", "URL" => "https://www.amazon.com", "Type" => "E-commerce");
 
 
 //Main
