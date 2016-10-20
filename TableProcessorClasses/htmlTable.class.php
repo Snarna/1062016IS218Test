@@ -19,8 +19,7 @@ class htmlTable extends rawData{
 
     //Process CSV Line by Line
     while(($line = fgetcsv($file)) !== FALSE){
-      $line = array_combine($headerLine,$line);
-      $this->rawArray[] = $line;
+      $this->rawArray[] = array_combine($headerLine,$line);
     }
   }
 
