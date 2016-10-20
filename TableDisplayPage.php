@@ -19,7 +19,8 @@
 </head>
 <body>
 <?php
-require($_SERVER['DOCUMENT_ROOT'] . "/TableProcessorClasses/htmlTable.class.php");
+
+require(__DIR__ . "/TableProcessorClasses/htmlTable.class.php");
 
 $inputArr = array();
 $inputArr[] = array("Name" => "Google", "URL" => "https://www.google.com/", "Type" => "Search engine" );

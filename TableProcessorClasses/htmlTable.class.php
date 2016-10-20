@@ -1,5 +1,5 @@
 <?php
-require($_SERVER['DOCUMENT_ROOT'] . "/TableProcessorClasses/rawData.class.php");
+require(__DIR__ . "/rawData.class.php");
 
 class htmlTable extends rawData{
   protected $htmlTable = '';
@@ -11,7 +11,8 @@ class htmlTable extends rawData{
 
   //Set Array From CSV File
   public function setArrayFromCSV($fileName){
-    $file = fopen($_SERVER['DOCUMENT_ROOT'] . '/Data/' . $fileName, "r");
+
+    $file = fopen(dirname(__DIR__) . '/Data/' . $fileName, "r") or die(print_r(error_get_last(),true));
 
     //Get Header
     $headerLine = fgetcsv($file);
